@@ -1,0 +1,11 @@
+.cart{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.cart_target{
+    display: flex;
+    justify-content: center;
+text-align: center;
+}

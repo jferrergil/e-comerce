@@ -1,0 +1,73 @@
+
+  
+
+.details{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 20px;
+}
+
+.details_card{
+    display: flex;
+    width: 600px;
+    height: auto;
+    background: rgb(243, 240, 240);
+    border-radius: 2px;
+    box-shadow:  1px 1px 4px 2px #FF669C;
+}
+
+.details_card-info{
+    border-right: 1px solid #ddd;
+}
+
+.details_card-info, .details_card-description{
+    padding: 20px;
+    text-align: center;
+}
+
+.details_card-info button{
+    position: relative;
+    display: block;
+}
+
+.details_card-info img{
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin: 20px 30px;
+    transition: .2s;
+}
+
+.header p{
+    color:black;
+} */
+
+.details_card-description{
+    position:relative ;
+} 
+
+.details_card-description p{
+    margin: 10px 10px; 
+ } 
+
+ .details_card-description .details_card-button{
+    margin-top: 25px;
+} 
+
+ .details_card-description .details_card-button{
+
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+
+/* .cartbtn:active:before{
+    position: absolute;
+    content: 'Añadido';
+    top:50px;
+    color: blueviolet;
+    font-size: 3rem;
+} */

@@ -1,0 +1,22 @@
+GET http://localhost:3030/user
+
+###
+POST http://localhost:3030/user
+content-type: application/json
+
+{
+  "name":"david",
+  "passwd":"12345",
+  "email":"gerar@email.com"
+}
+
+###
+PATCH  http://localhost:3030/user/61a64d4ad6f1588df393e70e
+content-type: application/json
+
+{
+    "email":"vamosEseAlberto@gmail.com"
+}
+
+###
+DELETE http://localhost:3030/user/61a88e0d1390357162435c45

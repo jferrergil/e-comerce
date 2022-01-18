@@ -1,0 +1,12 @@
+GET http://localhost:3030/product/61add73c644f7d40fd544900
+###
+DELETE http://localhost:3030/product/61a8ab937f53a7b97ae652b0
+
+###
+
+PATCH http://localhost:3030/product/61a73a31e3a712b1902b7329
+content-type: application/json
+
+{
+    "brand": "prueba update"
+}

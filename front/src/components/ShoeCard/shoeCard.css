@@ -1,0 +1,48 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+
+.container .card{
+    
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px  #FF669C;
+    overflow: hidden;
+    margin:20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+
+.container .card:hover {
+    transform:  translateY(-15px);
+    box-shadow: 0 12px 16px  #f393b4;
+}
+
+.container .card img{
+    width: 330px;
+    
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight:300 ;
+}
+

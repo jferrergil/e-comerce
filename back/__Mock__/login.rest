@@ -1,0 +1,8 @@
+POST http://localhost:3030/login
+content-type: application/json
+
+{
+    "email":"jorge@email.com",
+    "passwd":"12345"
+}
+

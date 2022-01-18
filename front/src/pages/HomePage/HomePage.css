@@ -1,0 +1,45 @@
+.homepage{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.homepage_ul{
+  display: flex ;
+  flex-wrap: wrap;
+}
+
+.homepage_logo{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 80px;
+
+}
+.homepage_tittle{
+  text-align: center;
+  justify-content: center;
+  font-family: 'LobsterTwo';
+  font-size: 100px;
+  color: #FF669C;
+    
+}
+
+.homepage_container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
